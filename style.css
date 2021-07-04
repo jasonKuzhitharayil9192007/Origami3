@@ -58,3 +58,37 @@ h3
 {
     padding-left: inherit;
 }
+
+.img
+{
+    position:relative;
+}
+
+.img p
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.img:hover p
+{
+    opacity:1
+}
+
+.img:hover img
+{
+    opacity:0.3    
+}
+
+a:link
+{
+    color:white;
+}
+
+a:visited
+{
+    color:white;
+}
